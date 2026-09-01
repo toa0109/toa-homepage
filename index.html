@@ -35,11 +35,14 @@ section{padding:92px 0}.soft{background:var(--cream)}
 .service{min-height:220px}.service p{margin-bottom:0}.future{position:relative;overflow:hidden}.future:after{content:"OPEN予定";position:absolute;right:-42px;top:20px;transform:rotate(35deg);background:#d9a65b;color:#fff;padding:4px 48px;font-size:11px;font-weight:700}
 .points{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.point{padding:25px;border-radius:18px;background:#fff;border:1px solid var(--line)}.num{font-size:13px;color:var(--green);font-weight:800}
 .message{max-width:820px;margin:auto;font-size:17px}.message p{margin:0 0 20px}
+.mascot-greeting{max-width:900px;margin:48px auto 0;display:grid;grid-template-columns:minmax(240px,340px) 1fr;align-items:center;gap:44px;padding:30px 36px;border:1px solid #e5ebe6;border-radius:24px;background:linear-gradient(135deg,#fff 0%,#fbf8f3 100%)}
+.mascot-greeting img{display:block;width:100%;border-radius:18px}.mascot-copy .eyebrow{display:block;margin-bottom:5px}.mascot-copy h3{font-size:25px;color:var(--deep);margin:0 0 13px}.mascot-copy p{margin:0;font-size:15px}
 .info{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.info-box{background:#fff;border-radius:20px;padding:30px;border:1px solid var(--line)}
 table{width:100%;border-collapse:collapse}th,td{padding:13px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{width:35%;font-weight:700;color:var(--deep)}
 .cta{background:var(--deep);color:#fff;text-align:center}.cta h2{font-size:34px;margin-top:0}.cta .btn{background:#fff;color:var(--deep)}
+.mascot-closing{padding:55px 0 0;background:#fff;text-align:center;overflow:hidden}.mascot-closing p{margin:0 0 15px;color:var(--deep);font-weight:700;letter-spacing:.08em}.mascot-closing img{display:block;width:min(390px,82vw);margin:0 auto;border-radius:22px 22px 0 0}
 footer{background:#23382e;color:#e9eee9;padding:45px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px}.small{font-size:13px;opacity:.8}
-@media(max-width:800px){nav{display:none}.hero{min-height:560px}.hero-inner{padding:70px 24px}section{padding:68px 0}.grid,.info{grid-template-columns:1fr}.points{grid-template-columns:1fr 1fr}.lead{font-size:16px}}
+@media(max-width:800px){nav{display:none}.hero{min-height:560px}.hero-inner{padding:70px 24px}section{padding:68px 0}.grid,.info{grid-template-columns:1fr}.points{grid-template-columns:1fr 1fr}.lead{font-size:16px}.mascot-greeting{grid-template-columns:1fr;gap:20px;padding:26px}.mascot-greeting img{max-width:340px;margin:auto}.mascot-copy{text-align:center}}
 @media(max-width:520px){.points{grid-template-columns:1fr}.buttons .btn{width:100%;text-align:center}.hero h1{font-size:39px}.card{padding:25px}}
 </style>
 </head>
@@ -67,6 +70,14 @@ footer{background:#23382e;color:#e9eee9;padding:45px 0}.footer-grid{display:flex
 <p>私たちが大切にしているのは、「その人らしく暮らす」ということです。</p>
 <p>介護や障害福祉を必要とされる方の生活には、一人ひとり違った想いや希望があります。できることは大切に。必要なところは丁寧に。ご本人とご家族の想いに寄り添いながら、安心して地域で暮らし続けられるよう支援します。</p>
 <p>訪問から通所、相談、そして就労へ。永愛は、地域で暮らす皆さまの人生に長く寄り添える会社を目指しています。</p>
+</div>
+<div class="mascot-greeting">
+<img src="furuchan-satokun-temp.png" alt="株式会社永愛のオリジナルキャラクター、ふるちゃんとさとくん" loading="lazy">
+<div class="mascot-copy">
+<span class="eyebrow">OUR CHARACTERS</span>
+<h3>ふるちゃん・さとくんのごあいさつ</h3>
+<p>はじめまして。株式会社永愛のオリジナルキャラクター「ふるちゃん」と「さとくん」です。やさしさと安心をお届けできるよう、私たちも永愛の取り組みをご案内していきます。どうぞよろしくお願いいたします。</p>
+</div>
 </div>
 </div>
 </section>
@@ -173,6 +184,13 @@ footer{background:#23382e;color:#e9eee9;padding:45px 0}.footer-grid{display:flex
 </div>
 </section>
 </main>
+
+<div class="mascot-closing" aria-label="ふるちゃんとさとくんからのメッセージ">
+<div class="wrap">
+<p>ずっと、あなたのそばに。</p>
+<img src="furuchan-satokun-temp.png" alt="並んでごあいさつする、ふるちゃんとさとくん" loading="lazy">
+</div>
+</div>
 
 <footer>
 <div class="wrap footer-grid">
